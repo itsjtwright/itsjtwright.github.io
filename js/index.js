@@ -8,7 +8,8 @@ $(document).ready(function() {
   setImage(".w2a002","")
   setImage(".w3a000","http://k003.kiwi6.com/hotlink/o8yygegbtg/IMG_2195.mp3")
   setImage(".w4a000","http://k003.kiwi6.com/hotlink/acx55wsq3d/IMG_2226.mp3")
-  setImage(".w4a002","")
+  setImage(".w5a000","");
+  setImage(".w4a002","");
 });
 function setImage(image, sound) {
   let thisAudio = new Audio(sound);
