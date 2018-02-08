@@ -6,3 +6,8 @@ body{
 .p {
   position:absolute;
 }
+
+.imageWrapper {
+  width:100vw;
+  height:100vh;
+}
