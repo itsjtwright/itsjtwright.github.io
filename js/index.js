@@ -22,7 +22,14 @@ function setImage(image, sound) {
       thisAudio.play();
     }).before(image.substr(1));
     $("body").css({ "overflow": "scroll" });
-  } else {
+  } else if(document.getElementById("cleanCheck").checked) {
+    $(image).css({ "width": "25%", "display": "inline-block", "position": "relative" })
+    $(image).on("click", function () {
+      thisAudio.play();
+    }).before(image.substr(1));
+    $("body").css({ "overflow": "scroll" });
+  }
+  else {
     $(image)
       .css({
         width: Math.floor(Math.random() * 500),
