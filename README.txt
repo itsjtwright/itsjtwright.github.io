@@ -1,3 +1,3 @@
-A Pen created at CodePen.io. You can find this one at https://codepen.io/itsJTWright/pen/VyGezo.
+This is a place for me to store little web projects as well as my portfolio until further notice.
 
- 
+Thanks for stopping by :)
