@@ -27,6 +27,7 @@ function setImage(image, sound) {
     if ($(window).width() < $(window).height())
     // || window.matchMedia("only screen and (max-width: 760px)"))
     {
+        $(".clean").css("display", "none");
         $(image).css({ "width": "100%", "display": "block", "position": "relative" })
         $(image).on("click", function() {
             thisAudio.play();
@@ -46,6 +47,7 @@ function setImage(image, sound) {
         })
         $("body").css({ "overflow": "auto" });
     } else {
+        $(".clean").css("display", "block");
         $("body").css({ "overflow": "hidden" });
         $(image)
             .css({
