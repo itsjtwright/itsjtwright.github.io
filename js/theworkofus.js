@@ -20,6 +20,7 @@ function setImages() {
     setImage(".w5a000", "");
     setImage(".w4a002", "");
     setImage(".w6a000", "http://k003.kiwi6.com/hotlink/nlryes3mos/IMG_2262.mp3");
+    setImage(".w7a000", "http://k003.kiwi6.com/hotlink/04zvy6usr1/IMG_2274.mp3")
 }
 
 function setImage(image, sound) {
