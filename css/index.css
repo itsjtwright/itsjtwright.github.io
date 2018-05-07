@@ -1,0 +1,24 @@
+body {
+    background-color: #00f;
+    margin:0px;
+}
+
+.header {
+    height:63.8vh;
+    padding:0px;
+}
+
+.title {
+   color:#fff;
+   font-size:100vh;
+   font-weight:bold;
+   line-height:65vh;
+   text-align:center;
+   letter-spacing: 0.0030em;
+}
+
+.first {
+    background-color:#000;
+    position: relative;
+    z-index:100;
+}
