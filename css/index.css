@@ -3,6 +3,7 @@ body,html {
     color:white;
     height:100%;
     font-family:sans-serif;
+    background:black;
 }
 
 .header {
@@ -28,7 +29,6 @@ h2 {
 }
 
 .hey {
-    
     padding-top:200px;  
     margin-bottom:35%;
 }
@@ -41,4 +41,44 @@ h2 {
     margin-left:100px;
     font-size:40px;
     margin-right:100px;
+    font-weight:normal;
+    margin-bottom:35%;
+}
+
+.skills {
+    margin-left:100px;
+    font-size:35px;
+    list-style-type:none;
+    margin-bottom:35%;
+}
+
+.projects {
+    margin-bottom:35%;
+}
+
+.main-image {
+    margin:100px;
+    height:80vh;
+    max-width:80vw;
+}
+a:link {
+    color:#fff;
+}
+a:visited {
+    color:#fff;
+}
+a:hover {
+    color: #00f;
+}
+.sub {
+    color: #444;
+}
+
+.availability {
+    margin-right:100px;
+    margin-bottom:35%;
+}
+
+.end {
+    text-align:center;
 }
