@@ -1,4 +1,4 @@
-body,html {
+/* body,html {
     margin:0px;
     color:white;
     height:100%;
@@ -8,7 +8,7 @@ body,html {
     overflow-x: hidden;
 }
 
-/* .header {
+ .header {
     background-image: url('../img/WD.PNG');
     height:100%;
     background-attachment: fixed;
@@ -16,13 +16,13 @@ body,html {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     -webkit-overflow-scrolling: touch
-} */
+}
 
 .first {
     margin-top:-42px;
     background-color:#000;
-    /* position: relative; */
-    /* z-index:100; */
+    position: relative;
+    z-index:100; 
 }
 
 h2 {
@@ -100,4 +100,4 @@ a:hover {
     .sub {
         color: #555
     }
-}
+} */
