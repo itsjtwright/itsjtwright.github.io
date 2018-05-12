@@ -4,6 +4,8 @@ body,html {
     height:100%;
     font-family:sans-serif;
     background:black;
+    max-width:100%;
+    overflow-x: hidden;
 }
 
 .header {
@@ -58,7 +60,6 @@ h2 {
 
 .main-image {
     margin:100px;
-    height:80vh;
     max-width:80vw;
 }
 a:link {
@@ -81,4 +82,21 @@ a:hover {
 
 .end {
     text-align:center;
+}
+
+@media only screen and (max-width: 1024px) {
+    h2 {
+        font-size:30px;
+    }
+    .info, .skills {
+        font-size:25px;
+    }
+
+    .availability,.main-image,.skills,.info,.contact, h2 {
+        margin-left:25px;
+        margin-right:25px;
+    }
+    .sub {
+        color: #555
+    }
 }
