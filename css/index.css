@@ -102,4 +102,7 @@ a:hover {
     .sub {
         color: #555
     }
+    .header {
+        background-size:100% 50%;
+    }
 } 
