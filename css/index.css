@@ -11,31 +11,41 @@
     overflow-x: hidden;
 }
 
- .header {
-    background-image: url('../img/WD.PNG');
-    height:100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+.hey {
+    padding:20% 0;
+}
+
+.header {
+    min-height:100vh;
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    z-index: 0;
+    overflow:hidden;
+    background-color:blue;
+}
+.intro-image {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:100%;
+    height:auto;
 }
 
 .first {
-    margin-top:-42px;
+    margin-top:100vh;
     background-color:#000;
     position: relative;
-    z-index:100; 
+    padding:20% 0;
 }
 
 h2 {
     font-size:50px;
     font-weight:normal;
     margin-left:100px;    
-}
-
-.hey {
-    padding-top:200px;  
-    margin-bottom:35%;
 }
 
 .wrong {
@@ -47,18 +57,19 @@ h2 {
     font-size:40px;
     margin-right:100px;
     font-weight:normal;
-    margin-bottom:35%;
+    padding:0 0 20% 0;
 }
 
 .skills {
     margin-left:100px;
     font-size:35px;
     list-style-type:none;
-    margin-bottom:35%;
 }
 
 .projects {
-    margin-bottom:35%;
+    padding:20% 0;
+    background-color:#000;
+    position: relative;
 }
 
 .main-image {
@@ -77,14 +88,20 @@ a:hover {
 .sub {
     color: #444;
 }
-
+.contact {
+    position: relative;
+    background-color:black;
+    padding:20% 0;
+}
 .availability {
     margin-right:100px;
-    margin-bottom:35%;
 }
 
 .end {
     text-align:center;
+    position: relative;
+    background-color:black;
+    margin:0;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -101,8 +118,5 @@ a:hover {
     }
     .sub {
         color: #555
-    }
-    .header {
-        background-size:100% 50%;
     }
 } 
