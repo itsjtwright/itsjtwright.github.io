@@ -6,7 +6,6 @@ body,html {
     background:black;
     max-width:100%;
     overflow-x: hidden;
-    overflow-y: scroll;
 }
 
 /* .header {
@@ -24,7 +23,6 @@ body,html {
     background-color:#000;
     /* position: relative; */
     /* z-index:100; */
-    -webkit-overflow-scrolling: touch
 }
 
 h2 {
