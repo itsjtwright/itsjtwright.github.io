@@ -112,7 +112,7 @@ a:hover {
         font-size:25px;
     }
 
-    .availability,.main-image,.skills,.info,.contact, h2 {
+    .main-image,.skills,.info, h2 {
         margin-left:25px;
         margin-right:25px;
     }
