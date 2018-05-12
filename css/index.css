@@ -4,8 +4,11 @@
     height:100%;
     font-family:sans-serif;
     background:black;
-    max-width:100%;
-    /* overflow-x: hidden; */
+}
+
+.all {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 /*
  .header {
