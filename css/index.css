@@ -1,4 +1,4 @@
-/* body,html {
+ body,html {
     margin:0px;
     color:white;
     height:100%;
@@ -7,7 +7,7 @@
     max-width:100%;
     overflow-x: hidden;
 }
-
+/*
  .header {
     background-image: url('../img/WD.PNG');
     height:100%;
