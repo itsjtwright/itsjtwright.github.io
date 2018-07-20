@@ -67,6 +67,11 @@ a:hover {
     margin-bottom:100px;
 }
 
+.sp {
+    position: absolute;
+    height:50px;
+    margin-top:230%;
+}
 @media screen and (max-width: 1170px) {
     .about,.what-i-do,.portfolio,.contact {
         margin-left:100px;
