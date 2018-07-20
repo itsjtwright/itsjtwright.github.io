@@ -19,12 +19,14 @@ function setImage(image, sound) {
     // || window.matchMedia("only screen and (max-width: 760px)"))
     {
         $(".clean").css("display", "none");
-        $(image).css({ "width": "100%", "display": "block", "position": "relative" })
+        $('.imageWrapper').css({"width":"auto","height":"auto"})
+        $(image).css({ "width": "100%", "display": "block", "position": "relative","margin-right":"10px" })
         $(image).on("click", function() {
             thisAudio.play();
         }).before(image.substr(1));
         $("body").css({ "overflow": "auto" });
     } else if (document.getElementById("cleanCheck").checked) {
+        $('.imageWrapper').css({"width":"auto","height":"auto"})
         $('.imageWrapper').css("display:flex");
         $(image).css({
             transform: "rotate(0deg)",
