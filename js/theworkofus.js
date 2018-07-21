@@ -11,6 +11,10 @@ function setImages() {
     setImage(".w0a000", "http://k003.kiwi6.com/hotlink/mz4rf4o9it/w0a000.m4a");
     setImage(".w0a001", "http://k003.kiwi6.com/hotlink/q29617xpe2/w0a001.m4a");
     setImage(".w0a002", "http://k003.kiwi6.com/hotlink/lkltm1yzbv/w0a002.m4a");
+    setImage(".w1a000","http://k003.kiwi6.com/hotlink/owts6om80z/w1a000.m4a");
+    setImage(".w1a001", "http://k003.kiwi6.com/hotlink/wkaqpzl15k/w1a001.m4a");
+    setImage(".w1a003", "http://k003.kiwi6.com/hotlink/ri6a0hit5c/w1a003.m4a");
+    setImage(".w1a004", "http://k003.kiwi6.com/hotlink/8rktt6ptno/w1a004.m4a");
 }
 
 function setImage(image, sound) {
