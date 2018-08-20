@@ -18,6 +18,7 @@ function setImages() {
     setImage(".w2a000", "http://k003.kiwi6.com/hotlink/5o611zg7f4/w2a000.m4a");
     setImage(".w3a000", "http://k003.kiwi6.com/hotlink/psd8b9ntds/W3a000.m4a");
     setImage(".w4a000", "http://k003.kiwi6.com/hotlink/h1m8wugp0h/W5a000.m4a");
+    setImage(".w5a000", "http://k003.kiwi6.com/hotlink/d18k1jfwip/w5a000.m4a");
 }
 
 function setImage(image, sound) {
