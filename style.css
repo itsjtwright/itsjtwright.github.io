@@ -1,0 +1,32 @@
+body {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px auto;
+    grid-gap: 1%;
+    font-family:sans-serif
+}
+
+.header {
+    grid-column: 1/ span 2;
+    border:1px solid black;
+    align-self:center;
+}
+
+.name {
+    margin-left: 12px;
+}
+
+.left {
+    border: 1px solid black;
+    grid-column: 1/1;
+    grid-row: 2/2;
+}
+.right {
+    border: 1px solid black;
+    grid-column: 2/span 2;
+    grid-row: 2/2;
+}
+.left-content, .right-content {
+    margin-left: 12px;
+    margin-right:12px;
+}
