@@ -9,18 +9,28 @@
   <meta name="keywords" content="design, wrong, wrong design, jt wright, jt, wright, jacob">
   <link rel="stylesheet" type="text/css" href="style.css">
   </head>
-  <div class="main">
-      <div class="work" >
+  <body>
+      <script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.js"></script>
+  <div class="main" id="main">
+      <div class="work" v-on:click="workDisplay">
         <h1>WORK WORK WORK WORK WORK WORK WORK WORK WORK WORK WORK WORK WORK WORK WORK WORK WORK WORK</h1>
       </div>
-      <div class="outerCircle">
+      <div class="outerCircle" id="outerCircle">
           <div class="innerCircle">
             <h1 class="title">WRONG DESIGN WRONG DESIGN WRONG DESIGN WRONG DESIGN WRONG DESIGN WRONG DESIGN WRONG DESIGN WRONG DESIGN WRONG DESIGN WRONG DESIGN WRONG DESIGN WRONG DESIGN WRONG DESIGN WRONG DESIGN WRONG DESIGN WRONG DESIGN WRONG DESIGN WRONG DESIGN WRONG DESIGN WRONG DESIGN WRONG DESIGN WRONG DESIGN WRONG DESIGN WRONG DESIGN WRONG DESIGN WRONG DESIGN WRONG DESIGN WRONG DESIGN WRONG DESIGN WRONG DESIGN WRONG DESIGN WRONG DESIGN WRONG DESIGN WRONG DESIGN WRONG DESIGN</h1>
           </div>
       </div> 
+      <div class="displayOuterCircle" id="displayOuterCircle">
+        <div class="displayInnerCircle">
+          <div id="projects">
+            <h1 v-for="project in workArr" v-on:click="displayDetails" class="project">{{project.title}}</h1>
+          </div>
+        </div>
+      </div>
       <div class="about" >
           <h1>ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT ABOUT</h1>
         </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>

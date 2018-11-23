@@ -44,6 +44,33 @@ body {
     animation: turn 10s linear infinite;
 }
 
+.displayOuterCircle {
+    width: 50vw;
+    height: 50vw;
+    max-height: 90vh;
+    max-width: 90vh;
+    background: white;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    justify-self: end;
+    align-self: center;
+    justify-self: center;
+    grid-column: 2/3;
+    display:none;
+}
+
+.displayInnerCircle {
+    width:35vw;
+    height:35vw;
+    background:black;
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .title {
     color:white;
     text-align:center;
@@ -92,3 +119,16 @@ body {
 .middle {
     color:red;
 }
+
+#projects {
+    color:white;
+}
+
+.project:hover {
+    font-style:italic;
+}
+
+.project {
+    margin: 12px 0px 12px 0px;
+}
+
