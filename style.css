@@ -1,134 +1,20 @@
-html {
-    height:100%;
-}
-
-body {
-    height: 100%;
-    margin:0px;
-}
-
-.main {
-    display: grid;
-    align-items: center;
-    height: 100%;
-    background: black;
-    grid-template-columns: 100px auto 100px;
-    overflow:hidden;
-}
-
-.innerCircle {
-    width:35vw;
-    height:35vw;
-    background:black;
-    border-radius: 50%;
+body, #app {
+    font-family: monospace;
     display:flex;
-    align-items: center;
-    justify-content: center;
+    flex-wrap:wrap;
+    margin: 25px;
+    background:#eee;
 }
 
-.outerCircle {
-    width: 50vw;
-    height: 50vw;
-    max-height: 90vh;
-    max-width: 90vh;
-    background: white;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    justify-self: end;
-    align-self: center;
-    justify-self: center;
-    grid-column: 2/3;
-    animation: turn 10s linear infinite;
+.box {
+    width:400px;
+    height:250px;
+    margin:0px 40px 80px 0px;
 }
 
-.displayOuterCircle {
-    width: 50vw;
-    height: 50vw;
-    max-height: 90vh;
-    max-width: 90vh;
-    background: white;
-    border-radius: 50%;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    justify-self: end;
-    align-self: center;
-    justify-self: center;
-    grid-column: 2/3;
-    display:none;
+.shot {
+    width:400px;
+    height:250px;
+    object-fit:contain;
+    object-position: left;
 }
-
-.displayInnerCircle {
-    width:35vw;
-    height:35vw;
-    background:black;
-    border-radius: 50%;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.title {
-    color:white;
-    text-align:center;
-    font-size:40px;
-}
-
-.work {
-    color: white;
-    align-self: start;
-    grid-column: 1/2;
-    margin-left: 12px;
-    line-height:0px;
-    font-size:40px;
-}
-
-.work:hover {
-    line-height:20px;
-}
-
-.work:hover, .about:hover {
-    font-style: italic;
-}
-
-.about {
-    color: white;
-    justify-self: end;
-    grid-column: 3/3;
-    align-self: end;
-    margin-right: 12px;
-    line-height:0px;
-    font-size:40px;
-}
-
-.about:hover {
-    line-height:20px;
-}
-
-@keyframes turn {
-    0% {
-        transform: rotate(0deg);
-    } 100% {
-        transform: rotate(360deg);
-    }
-}
-
-.middle {
-    color:red;
-}
-
-#projects {
-    color:white;
-}
-
-.project:hover {
-    font-style:italic;
-}
-
-.project {
-    margin: 12px 0px 12px 0px;
-}
-
