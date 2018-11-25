@@ -18,3 +18,7 @@ body, #app {
     object-fit:contain;
     object-position: left;
 }
+
+h1 {
+    all:unset;
+}
