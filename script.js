@@ -4,7 +4,7 @@ let app = new Vue({
       projects: [
         {title:"Wrong Design Apparel",
         src:"assets/wrongDesign.png",
-        page:"wrong.design/apparel/"}
+        page:"apparel/"}
       ]
     }
   })
