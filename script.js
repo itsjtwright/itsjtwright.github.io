@@ -3,7 +3,8 @@ let app = new Vue({
     data: {
       projects: [
         {title:"Wrong Design Apparel",
-        src:"assets/wrongDesign.png"}
+        src:"assets/wrongDesign.png",
+        page:"wrong.design/apparel/"}
       ]
     }
   })
