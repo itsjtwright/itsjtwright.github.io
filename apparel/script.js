@@ -3,7 +3,9 @@ let app = new Vue({
     data: {
       projects: [
         {id:"01",title:"Wrong Design Apparel type with warped geometric form",
-        page:"cop/01.html"}
+        page:"cop/01/index.html"},
+        {id:"02",title:"No Coast Blues warped italicization",
+        page:"cop/02/index.html"}
       ]
     }
   })
