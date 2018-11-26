@@ -1,6 +1,12 @@
 .box {
     border-bottom:1px solid black;
     padding-bottom:1em;
+    text-decoration: none; 
+}
+
+a {
+    color:inherit;
+    text-decoration: inherit;
 }
 
 #app

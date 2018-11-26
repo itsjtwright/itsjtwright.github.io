@@ -18,7 +18,7 @@
         </p>
     </div>
     <div class="empty"></div>
-    <div class="box" v-for="project in projects"><a href="apparel.wrong.design"><div class="img"><img :src="project.src" alt="" class="shot"></div></a><p class="title">{{project.id}}<br>{{project.title}}</p></div>
+    <div class="box" v-for="project in projects"><a :href="project.page"><p class="title">{{project.id}}<br>{{project.title}}</p></a></div>
   </div>
   </body>
   <script src="script.js"></script>
