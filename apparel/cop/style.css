@@ -1,0 +1,35 @@
+.box,
+.shot {
+    max-width: 500px;
+    height: 350px
+}
+
+#app,
+body {
+    font-family: monospace;
+    flex-wrap: wrap;
+    margin: 25px;
+}
+
+.box:hover {
+    z-index:10;
+}
+
+.box {
+    margin: 0 40px 80px 0;
+    position: absolute;
+}
+
+.shot {
+    object-fit: contain;
+    object-position: left
+}
+
+@media (max-width:400px) {
+    .box,.shot {
+        width:100%;
+    }
+    body,#app {
+        margin:5px;
+    }
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>WRONG DESIGN APPAREL</title>
+    <meta name="author" content="name">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The design and development work of Jacob Trafton Wright">
+    <meta name="keywords" content="design, wrong, wrong design, jt wright, jt, wright, jacob">
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+
+<body>
+    <script src="../../../vue.min.js"></script>
+    <div id="app" >
+        <div class="box" 
+        v-bind:style="{'margin-left':setMargin(),'margin-top':setMargin()}"
+        v-for="project in projects">
+                <img :src="project.src" :alt="project.title" class="shot">
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
