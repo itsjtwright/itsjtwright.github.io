@@ -33,6 +33,12 @@ body {
     text-decoration: underline;
 }
 
+.shownDesc {
+    text-align:right;
+    float:right;
+    width:200px;
+}
+
 @media (max-width:400px) {
     .box,.shot {
         width:100%;
@@ -46,5 +52,16 @@ body {
     }
     .info {
         margin-top:0px;
+    }
+    .shownDesc {
+        background:black;
+        color:white;
+        padding:5px;
+        position:fixed;
+        top:0;
+        margin-left:-10px;
+        width:100%;
+        text-align:initial;
+        float:left;
     }
 }
