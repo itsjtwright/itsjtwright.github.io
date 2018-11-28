@@ -18,6 +18,7 @@
         v-bind:style="{'margin-left':setMargin(),'margin-top':setMargin()}"
         v-for="project in projects">
                 <img :src="project.src" :alt="project.title" class="shot">
+                <div v-if="project.price" class="info"><span class="details">Details</span> | <span  class="buy">Cop this ({{project.price}})</span></div>
         </div>
     </div>
 </body>

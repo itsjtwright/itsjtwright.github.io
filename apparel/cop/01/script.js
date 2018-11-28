@@ -8,7 +8,7 @@ let app = new Vue({
         {id:"01",title:"Shirt Design",
         src:"noCoastBlues.png"},
         {id:"02",title:"Shirt Design",
-        src:"noCoastBlues.png"}
+        src:"noCoastBlues.png",price:"$18"}
       ]
     },
     methods: {
@@ -23,6 +23,9 @@ let app = new Vue({
           flip++;
           return margin + "px"
         }
+      },
+      showDetails: function() {
+        
       }
     }
   })
