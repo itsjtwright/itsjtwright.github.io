@@ -8,8 +8,8 @@ let app = new Vue({
       projects: [
         {id:0,title:"Shirt Design",
         src:"noCoastBlues.png"},
-        {id:1,title:"Shirt Design",
-        src:"noCoastBlues.png",price:"$18",desc:"Art of the shirt, dummy item"}
+        {id:1,title:"Grandpa Sweater",
+        src:"noCoastBlues.png",price:"$18",desc:"Mens large - patch on back - one of a kind"}
       ],
       showDesc: false
     }
