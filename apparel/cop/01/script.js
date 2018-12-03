@@ -1,6 +1,5 @@
 let flip = 0;
 let margin = 0;
-
 let app = new Vue({
     el: '#app',
     data: function() {
