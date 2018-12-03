@@ -13,16 +13,16 @@
 
 <body>
     <script src="../../../vue.min.js"></script>
+    <script src="index.js"></script>
     <div id="app" >
         <div class="box" 
         v-bind:style="{'margin-left':setMargin(),'margin-top':setMargin()}"
         v-for="project in projects">
-                <img :src="project.src" :alt="project.title" class="shot">
+                <img :src="project.src[srcNum % project.src.length]" v-on:click="srcNum++; margin=0; flip=0" @mouseover="srcNum++;margin=0; flip=0;" :alt="project.title" class="shot">
                 <div v-if="project.price" class="info"><span v-on:click="showDetails(project.id)" class="details">Details</span> | <span  class="buy">Cop this ({{project.price}})</span></div>
         </div>
         <div v-show="showDesc" class="shownDesc"><h1 class="descTitle" id="descTitle"></h1><br><div class="rest" id="rest"></div></div>
     </div>
 </body>
 <script src="script.js"></script>
-
 </html>

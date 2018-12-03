@@ -7,11 +7,12 @@ let app = new Vue({
       return {
       projects: [
         {id:0,title:"Shirt Design",
-        src:"noCoastBlues.png"},
+        src:["noCoastBlues.png"]},
         {id:1,title:"Grandpa Sweater",
-        src:"noCoastBlues.png",price:"$18",desc:"Mens large - patch on back - one of a kind"}
+        src:["IMG_0106-min.JPG","IMG_0107-min.JPG","IMG_0108-min.JPG","IMG_0116-min.JPG"],price:"$20",desc:"Mens large - patch on back - one of a kind"}
       ],
-      showDesc: false
+      showDesc: false,
+      srcNum:0
     }
     },
     methods: {
