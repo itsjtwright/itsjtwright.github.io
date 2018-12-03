@@ -8,7 +8,7 @@ let app = new Vue({
         {id:0,title:"Shirt Design",
         src:["noCoastBlues.png"]},
         {id:1,title:"Grandpa Sweater",
-        src:["IMG_0106-min.JPG","IMG_0107-min.JPG","IMG_0108-min.JPG","IMG_0116-min.JPG"],price:"$20",desc:"Mens large - patch on back - one of a kind"}
+        src:["IMG_0107-min.JPG","IMG_0106-min.JPG","IMG_0108-min.JPG","IMG_0116-min.JPG"],price:"$20",desc:"Mens large - patch on back - one of a kind"}
       ],
       showDesc: false,
       srcNum:0
